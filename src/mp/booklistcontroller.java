@@ -141,8 +141,8 @@ public class booklistcontroller implements Initializable{
             alert.showAndWait();
             try{
             String host ="smtp.gmail.com" ;
-            String user = "digitallibrary98@gmail.com";
-            String pass = "miniproject1234";
+            String user = "";
+            String pass = "";
             String to =mp.Controller.currentuserrno+"@nirmauni.ac.in";
             String from = "digitallibrary98@gmail.com";
             String subject = "book returned";
